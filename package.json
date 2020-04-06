@@ -1,0 +1,55 @@
+{
+  "name": "@stylelint/remark-preset",
+  "version": "1.0.0",
+  "description": "stylelint org's shareable preset for remark",
+  "keywords": [
+    "remark",
+    "remarkpreset"
+  ],
+  "repository": "stylelint/remark-preset",
+  "license": "MIT",
+  "author": "stylelint",
+  "main": "index.js",
+  "files": [],
+  "scripts": {
+    "format": "prettier . --write",
+    "lint": "npm-run-all --parallel lint:*",
+    "lint:formatting": "prettier . --check --ignore-path .gitignore",
+    "lint:js": "eslint . --ignore-path .gitignore",
+    "lint:md": "remark . --rc-path index.js --quiet --frail --ignore-path .gitignore",
+    "release": "np"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,md,yml}": "prettier --write"
+  },
+  "eslintConfig": {
+    "extends": [
+      "stylelint"
+    ]
+  },
+  "dependencies": {
+    "remark-frontmatter": "^1.3.3",
+    "remark-preset-lint-recommended": "^4.0.0",
+    "remark-preset-prettier": "^0.4.0",
+    "remark-validate-links": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-stylelint": "^11.1.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.1.1",
+    "np": "^6.2.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.2",
+    "remark-cli": "^8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
