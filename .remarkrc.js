@@ -1,10 +1,8 @@
-'use strict';
-
-module.exports = {
+export default {
 	plugins: [
-		require('remark-frontmatter'),
-		require('remark-preset-lint-recommended'),
-		require('remark-validate-links'),
-		require('remark-preset-prettier'),
+		'remark-frontmatter',
+		'remark-preset-lint-recommended',
+		'remark-validate-links',
+		'remark-preset-prettier',
 	],
 };

@@ -1,3 +1,1 @@
-'use strict';
-
-module.exports = require('./.remarkrc.js');
+export { default } from './.remarkrc.js';
