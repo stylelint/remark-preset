@@ -58,10 +58,10 @@
     "prettier": "^2.2.1",
     "remark-cli": "^10.0.0"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "engines": {
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
