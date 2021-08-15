@@ -10,9 +10,10 @@
   "license": "MIT",
   "author": "stylelint",
   "type": "module",
-  "main": "index.js",
+  "exports": "./index.js",
   "files": [
-    ".remarkrc.js"
+    ".remarkrc.js",
+    "index.js"
   ],
   "scripts": {
     "format": "prettier . --write",
