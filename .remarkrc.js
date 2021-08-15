@@ -1,8 +1,8 @@
+import frontmatter from 'remark-frontmatter';
+import presetLintRecommended from 'remark-preset-lint-recommended';
+import validateLinks from 'remark-validate-links';
+import presetPrettier from 'remark-preset-prettier';
+
 export default {
-	plugins: [
-		'remark-frontmatter',
-		'remark-preset-lint-recommended',
-		'remark-validate-links',
-		'remark-preset-prettier',
-	],
+	plugins: [frontmatter, presetLintRecommended, validateLinks, presetPrettier],
 };
