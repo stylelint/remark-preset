@@ -1,6 +1,6 @@
 # Changelog
 
-## Head
+## 3.0.0
 
 - Bump up `remark` dependencies to v14 and support only ESM ([#6](https://github.com/stylelint/remark-preset/pull/6))
 
