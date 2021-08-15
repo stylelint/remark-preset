@@ -21,9 +21,9 @@
     "lint:formatting": "prettier . --check --ignore-path .gitignore",
     "lint:js": "eslint . --ignore-path .gitignore",
     "lint:md": "remark . --quiet --frail --ignore-path .gitignore",
+    "prepare": "husky install",
     "release": "np",
-    "test": "npm run lint",
-    "prepare": "husky install"
+    "test": "npm run lint"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
