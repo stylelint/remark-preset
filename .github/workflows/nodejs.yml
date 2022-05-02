@@ -3,28 +3,28 @@ name: CI
 on:
   push:
     branches:
-      - master
+      - main
       - 'dependabot/**'
   pull_request:
     branches:
       - '**'
 
 jobs:
-  lint:
-    name: Lint on Node.js ${{ matrix.node }} and ${{ matrix.os }}
+  test:
+    name: Test on Node.js ${{ matrix.node }}
 
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
-        node: [12]
-        os: [ubuntu-latest]
+        node: [12, 14, 16, 18]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Use Node.js ${{ matrix.node }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
           cache: npm
@@ -35,5 +35,5 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Lint
-        run: npm run lint
+      - name: Test
+        run: npm test
