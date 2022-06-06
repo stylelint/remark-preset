@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@stylelint/prettier-config": "^2.0.0",
-    "eslint": "^8.14.0",
+    "eslint": "^8.16.0",
     "eslint-config-stylelint": "^15.1.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.4.1",
