@@ -12,3 +12,5 @@ on:
 jobs:
   test:
     uses: stylelint/.github/.github/workflows/test.yml@main
+    with:
+      node-version: '["lts/*"]'
