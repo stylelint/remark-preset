@@ -41,7 +41,7 @@
   "dependencies": {
     "remark-frontmatter": "^4.0.1",
     "remark-preset-lint-recommended": "^6.1.2",
-    "remark-preset-prettier": "^2.0.0",
+    "remark-preset-prettier": "^2.0.1",
     "remark-validate-links": "^12.1.0"
   },
   "devDependencies": {
