@@ -31,11 +31,6 @@
   },
   "prettier": "@stylelint/prettier-config",
   "eslintConfig": {
-    "settings": {
-      "jest": {
-        "version": 26
-      }
-    },
     "extends": "stylelint"
   },
   "dependencies": {
