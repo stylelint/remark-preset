@@ -9,6 +9,10 @@ updates:
     versioning-strategy: increase
     labels:
       - 'pr: dependencies'
+    groups:
+      development-dependencies:
+        dependency-type: development
+        exclude-patterns: ['remark*']
 
   - package-ecosystem: github-actions
     directory: '/'
