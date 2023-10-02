@@ -34,7 +34,7 @@
     "extends": "stylelint"
   },
   "dependencies": {
-    "remark-frontmatter": "^4.0.1",
+    "remark-frontmatter": "^5.0.0",
     "remark-preset-lint-recommended": "^6.1.3",
     "remark-preset-prettier": "^2.0.1",
     "remark-validate-links": "^12.1.1"
