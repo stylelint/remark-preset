@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.0.0
+
+- Changed: update `remark` to [v15](https://github.com/remarkjs/remark/releases/tag/15.0.0) including the relevant dependencies.
+
 ## 4.0.0
 
 - Removed: support for Node.js less than `16.0.0`.
