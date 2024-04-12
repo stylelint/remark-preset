@@ -1,5 +1,9 @@
 # Changelog
 
+## Head
+
+- Fixed: GitHub Alerts false positives.
+
 ## 5.0.0
 
 - Changed: update `remark` to [v15](https://github.com/remarkjs/remark/releases/tag/15.0.0) including the relevant dependencies.
