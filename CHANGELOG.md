@@ -1,7 +1,8 @@
 # Changelog
 
-## Head
+## 5.1.0
 
+- Changed: update `remark-preset-lint-recommended` dependency to `7.0.0`.
 - Fixed: GitHub Alerts false positives.
 
 ## 5.0.0
