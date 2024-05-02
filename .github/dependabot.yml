@@ -12,7 +12,7 @@ updates:
     groups:
       development-dependencies:
         dependency-type: development
-        exclude-patterns: ['remark*']
+        exclude-patterns: ['remark*', 'eslint']
 
   - package-ecosystem: github-actions
     directory: '/'
