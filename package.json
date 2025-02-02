@@ -42,7 +42,7 @@
   "prettier": "@stylelint/prettier-config",
   "dependencies": {
     "remark-frontmatter": "^5.0.0",
-    "remark-preset-lint-recommended": "^7.0.0",
+    "remark-preset-lint-recommended": "^7.0.1",
     "remark-preset-prettier": "^2.0.1",
     "remark-validate-links": "^13.0.2"
   },
