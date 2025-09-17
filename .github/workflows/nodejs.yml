@@ -10,6 +10,8 @@ on:
 
 jobs:
   test:
-    uses: stylelint/.github/.github/workflows/test.yml@main
+    uses: stylelint/.github/.github/workflows/test.yml@5c1fac886fb5f8f74e29e133f36d242770d03ed3 # main
     with:
       node-version: '["lts/*"]'
+    permissions:
+      contents: read
