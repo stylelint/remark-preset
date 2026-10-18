@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.1.2
+
+No consumer-facing change.
+
 ## 5.1.1
 
 - Fixed: missing `funding` field in `package.json`.
