@@ -57,6 +57,14 @@
   "engines": {
     "node": ">=16.0.0"
   },
+  "devEngines": {
+    "runtime": {
+      "name": "node"
+    },
+    "packageManager": {
+      "name": "npm"
+    }
+  },
   "publishConfig": {
     "access": "public"
   }
