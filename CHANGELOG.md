@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Removed: support for Node.js less than `22.22.0`.
+
 ## 5.1.2
 
 No consumer-facing change.
