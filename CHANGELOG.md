@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 6.0.0
 
 - Removed: support for Node.js less than `22.22.0`.
 
